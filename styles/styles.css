@@ -2,8 +2,8 @@
 
 /* Reset some default margin and padding */
 body, h1, h2, h3, p, ul, li, span {
-  margin: 0;
-  padding: 0;
+  margin: 20;
+  padding: 20;
   box-sizing: border-box;
 }
 
