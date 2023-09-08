@@ -1,78 +1,19 @@
-/* styles.css */
-
-/* Reset some default margin and padding */
-body, h1, h2, h3, p, ul, li, span {
-  margin: 20;
-  padding: 20;
-  box-sizing: border-box;
-}
-
-/* Apply background color and font styles */
-body {
-  background-color: #f3f3f3; /* Light gray background */
-  font-family: 'Montserrat', sans-serif;
-  color: #333; /* Dark text color */
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  border: 5px solid #333; /* Dark border around the content */
-  border-radius: 10px; /* Rounded corners */
-}
-
-/* Style headings */
 h1 {
-  color: #ff5252; /* Red */
-  font-size: 28px;
-  margin-top: 20px;
+  background-color: #ff0000;
 }
+
 
 h2 {
-  color: #2196f3; /* Blue */
-  font-size: 24px;
-  margin-top: 20px;
+  background-color: #0000FF;
 }
+
 
 h3 {
-  color: #4caf50; /* Green */
-  font-size: 20px;
-  margin-top: 15px;
+  background-color: #00FF00;
 }
 
-/* Style emphasized text */
+
 em {
-  background-color: #000; /* Black background */
-  color: #00ff00; /* Green text color */
-  padding: 2px;
-}
-
-/* Style the unordered list */
-ul {
-  list-style: disc; /* Use filled circles as list markers */
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-/* Style list items */
-li {
-  margin-bottom: 5px;
-}
-
-/* Style buttons */
-input[type="button"] {
-  background-color: #2196f3; /* Blue button background */
-  color: #fff; /* White text color */
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  margin-top: 20px;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: background-color 0.3s ease-in-out;
-}
-
-input[type="button"]:hover {
-  background-color: #1976d2; /* Darker blue on hover */
+  background-color: #000000;
+  color: #ffffff;
 }
