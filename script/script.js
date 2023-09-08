@@ -16,4 +16,4 @@ function displayDiff() {
   document.getElementById("result").innerHTML = ` ${firstNum} - ${secondNum}, equals to ${total}` ;
 }
 
-document.getElementById('sumButton').addEventListener("click", displayDiff);
+document.getElementById('diffButton').addEventListener("click", displayDiff);
