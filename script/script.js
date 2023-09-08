@@ -9,8 +9,8 @@ function displaySum() {
 document.getElementById('sumButton').addEventListener("click", displaySum);
 
 function displayDifference() {
-  let firstNum = Number(document.getElementById('firstNum').innerHTML)
-  let secondNum = Number(document.getElementById('secondNum').innerHTML)
+  let thirdNum = Number(document.getElementById('firstNum').innerHTML)
+  let fourthNum = Number(document.getElementById('secondNum').innerHTML)
 
   let difference = firstNum - secondNum;
   document.getElementById("result").innerHTML = ` ${firstNum} - ${secondNum}, equals to ${difference}` ;
@@ -19,8 +19,8 @@ function displayDifference() {
 document.getElementById('diffButton').addEventListener("click", displayDifference);
 
 function displayProduct() {
-  let firstNum = Number(document.getElementById('firstNum').innerHTML);
-  let secondNum = Number(document.getElementById('secondNum').innerHTML);
+  let fifthNum = Number(document.getElementById('firstNum').innerHTML);
+  let sixthNum = Number(document.getElementById('secondNum').innerHTML);
 
   let product = firstNum * secondNum;
   document.getElementById("result").innerHTML = ` ${firstNum} * ${secondNum}, equals to ${product}` ;
@@ -29,8 +29,8 @@ function displayProduct() {
 document.getElementById('prodButton').addEventListener("click", displayProduct);
 
 function displayQuotient() {
-  let firstNum = Number(document.getElementById('firstNum').innerHTML);
-  let secondNum = Number(document.getElementById('secondNum').innerHTML);
+  let seventhNum = Number(document.getElementById('firstNum').innerHTML);
+  let eighthNum = Number(document.getElementById('secondNum').innerHTML);
 
   if (secondNum === 0) {
     document.getElementById("result").innerHTML = "Cannot divide by zero!";
