@@ -1,25 +1,14 @@
-/* Reset some default browser styles */
-body, h1, h2, h3, p, ul, li {
+/* styles.css */
+
+/* Set the background color of the entire body */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Set the background color to black */
-body {
-  background-color: black;
-  color: white; /* Set text color to white */
-  font-family: "Montserrat", sans-serif; /* Use Montserrat font-family */
-}
-
-/* Center the content vertically and horizontally */
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* 100% viewport height */
-}
-
-/* Style headings */
+/* Style the headings */
 h1 {
   color: red;
 }
@@ -32,25 +21,22 @@ h3 {
   color: green;
 }
 
-/* Style paragraphs */
-p {
+/* Style the paragraph with emphasis */
+p em {
   background-color: black;
   color: green;
-  margin: 10px 0;
+  padding: 2px;
 }
 
-/* Style list items */
+/* Style the list */
 ul {
-  list-style-type: none;
+  list-style-type: disc;
+  margin-left: 20px;
 }
 
-li {
-  margin-bottom: 10px;
-}
-
-/* Style buttons */
+/* Style the button */
 input[type="button"] {
-  background-color: #007bff; /* Blue color for buttons */
+  background-color: #007bff;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -58,7 +44,16 @@ input[type="button"] {
   margin-top: 10px;
 }
 
-/* Add hover effect to buttons */
 input[type="button"]:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #0056b3;
+}
+
+/* Style spans inside paragraphs */
+p span {
+  font-weight: bold;
+}
+
+/* Add spacing between paragraphs */
+p {
+  margin-bottom: 10px;
 }
