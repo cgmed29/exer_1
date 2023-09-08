@@ -1,63 +1,116 @@
-/* styles.css */
-
-/* Set the background color of the entire body */
+/* Add a border around the entire body with square corners and white inside */
 body {
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-/* Style the headings */
-h1 {
-  color: pink;
-}
-
-h2 {
-  color: red;
-}
-
-h3 {
-  color: blue;
-}
-
-h4 {
-  color: green;
-}
-
-/* Style the paragraph with emphasis */
-p em {
-  background-color: black;
-  color: green;
-  padding: 2px;
-}
-
+    border: 10px solid #4aabec; /* Taylor Swift Red */
+    padding: 20px;
+    background-color: white; /* White inside the border */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 0; /* Square corners */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change to a more modern font */
+    margin: 0;
+    text-align: center; /* Center-align text within the body */
+  }
+  
+  /* Style the headings with Taylor Swift colors and a more modern font */
+  h1 {
+    color: #ea6bee; /* Taylor Swift Red */
+    font-family: 'Arial', sans-serif; /* Use Arial or Helvetica */
+    font-size: 36px; /* Increase font size */
+  }
+  
+  h2 {
+    color: #f06666; /* Dark gray */
+    font-family: 'Arial', sans-serif; /* Use Arial or Helvetica */
+    font-size: 28px;
+  }
+  
+  h3 {
+    color: #5b8bf3; /* Taylor Swift Red */
+    font-family: 'Arial', sans-serif; /* Use Arial or Helvetica */
+    font-size: 24px;
+  }
+  
+  h4 {
+    color: #5bf3a7; /* Taylor Swift Red */
+    font-family: 'Arial', sans-serif; /* Use Arial or Helvetica */
+    font-size: 24px;
+  }
+  
+  /* Style the paragraph with emphasis */
+  p em {
+    background-color: #f2f2f2; /* Light gray */
+    color: #e50914; /* Taylor Swift Red */
+    padding: 2px;
+    font-weight: bold; /* Add bold emphasis */
+    font-style: italic; /* Italicize the text */
+  }
+  
+  /* Style the list */
 /* Style the list */
 ul {
-  list-style-type: disc;
-  margin-left: 20px;
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #e50914; /* Taylor Swift Red */
+    font-family: 'Arial', sans-serif; /* Use Arial or Helvetica */
 }
 
-/* Style the button */
-input[type="button"] {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin-top: 10px;
+/* Style list items (li) within ul elements */
+ul li {
+    /* Add your list item styles here */
+    font-size: 20px; /* Adjust the font size for list items */
+    font-family: 'Times New Roman', sans-serif; /* Use Arial or Helvetica */
+    margin-bottom: 8px; /* Add spacing between list items */
 }
 
-input[type="button"]:hover {
-  background-color: #0056b3;
-}
+  
+  /* Style the button with Taylor Swift colors and a modern font */
+  input[type="button"] {
+    background-color: #e50914; /* Taylor Swift Red */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Larger padding for a more prominent button */
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif; /* Use Arial or Helvetica */
+    font-weight: bold;
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 1px; /* Slight letter spacing */
+    transition: background-color 0.3s;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #d00d1e; /* Darker Taylor Swift Red on hover */
+  }
+  
+  /* Style spans inside paragraphs */
+  p span {
+    font-weight: bold;
+    color: #e50914; /* Taylor Swift Red */
+  }
+  
+  /* Add more spacing between paragraphs */
+  p {
+    margin-bottom: 20px;
+    font-size: 20px; /* Increase font size for paragraphs */
+    font-family: 'Times New Roman', sans-serif; /* Use Arial or Helvetica */
+    
+  }
+  
+  /* Style the emphasized headings */
+  strong {
+    font-size: 36px; /* Larger font size */
+    color: #4aabec; /* Different color */
+    font-family: 'Times New Roman', Times, serif; /* Different font */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
 
-/* Style spans inside paragraphs */
-p span {
-  font-weight: bold;
-}
-
-/* Add spacing between paragraphs */
-p {
-  margin-bottom: 10px;
+  /* Define border for the specific section */
+.section-border {
+    border: 2px solid #ff6666; /* Red border */
+    padding: 10px; /* Add padding */
+    margin: 10px 0; /* Add spacing above and below */
 }
