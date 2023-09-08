@@ -1,17 +1,70 @@
+/* styles.css */
+
+/* Reset some default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and set font styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark text color */
+  padding: 20px;
+}
+
+/* Style headings */
 h1 {
-   /* background-color: #ff0000; */
-  bacground-color: pink;
+  color: #ff5252; /* Red */
+  font-size: 24px;
+  margin-top: 20px;
 }
 
 h2 {
-  background-color: #0000FF;
+  color: #2196f3; /* Blue */
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 h3 {
-  background-color: #00FF00;
+  color: #4caf50; /* Green */
+  font-size: 18px;
+  margin-top: 15px;
 }
 
+/* Style emphasized text */
 em {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #000; /* Black background */
+  color: #00ff00; /* Green text color */
+  padding: 2px;
+}
+
+/* Style the unordered list */
+ul {
+  list-style: disc; /* Use filled circles as list markers */
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* Style list items */
+li {
+  margin-bottom: 5px;
+}
+
+/* Style the button */
+#sumButton {
+  background-color: #2196f3; /* Blue button background */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#sumButton:hover {
+  background-color: #1976d2; /* Darker blue on hover */
 }
