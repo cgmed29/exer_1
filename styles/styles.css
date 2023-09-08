@@ -1,19 +1,64 @@
-h1 {
-  background-color: #ff0000;
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
 }
 
+/* Set the background color to black */
+body {
+  background-color: black;
+  color: white; /* Set text color to white */
+  font-family: "Montserrat", sans-serif; /* Use Montserrat font-family */
+}
+
+/* Center the content vertically and horizontally */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 100% viewport height */
+}
+
+/* Style headings */
+h1 {
+  color: red;
+}
 
 h2 {
-  background-color: #0000FF;
+  color: blue;
 }
-
 
 h3 {
-  background-color: #00FF00;
+  color: green;
 }
 
+/* Style paragraphs */
+p {
+  background-color: black;
+  color: green;
+  margin: 10px 0;
+}
 
-em {
-  background-color: #000000;
-  color: #ffffff;
+/* Style list items */
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Style buttons */
+input[type="button"] {
+  background-color: #007bff; /* Blue color for buttons */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Add hover effect to buttons */
+input[type="button"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
 }
