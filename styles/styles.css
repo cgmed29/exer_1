@@ -9,15 +9,16 @@ body, h1, h2, h3, p, ul, li, span {
 
 /* Apply background image (Taylor Swift theme) */
 body {
-  background-image: url('taylor-swift-background.jpg');
+  background-image: url('taylor-swift-background.jpg'); /* Replace with your Taylor Swift-themed background image */
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   color: #fff; /* White text color */
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   border: 5px solid #fff; /* White border around the content */
 }
 
