@@ -1,17 +1,24 @@
 /* styles.css */
 
 /* Reset some default margin and padding */
-body, h1, h2, h3, p, ul, li {
+body, h1, h2, h3, p, ul, li, span {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-/* Apply a background color and set font styles */
+/* Apply background image (Taylor Swift theme) */
 body {
+  background-image: url('taylor-swift-background.jpg');
+  background-size: cover;
   font-family: 'Montserrat', sans-serif;
-  background-color: #f0f0f0; /* Light gray background */
-  color: #333; /* Dark text color */
-  padding: 20px;
+  color: #fff; /* White text color */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 5px solid #fff; /* White border around the content */
 }
 
 /* Style headings */
@@ -52,8 +59,8 @@ li {
   margin-bottom: 5px;
 }
 
-/* Style the button */
-#sumButton {
+/* Style buttons */
+input[type="button"] {
   background-color: #2196f3; /* Blue button background */
   color: #fff; /* White text color */
   padding: 10px 20px;
@@ -65,56 +72,6 @@ li {
   transition: background-color 0.3s ease-in-out;
 }
 
-#sumButton:hover {
+input[type="button"]:hover {
   background-color: #1976d2; /* Darker blue on hover */
 }
-
-/* Style the button */
-#sumButton {
-  background-color: #2196f3; /* Blue button background */
-  color: #fff; /* White text color */
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  margin-top: 20px;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: background-color 0.3s ease-in-out;
-}
-
-#sumButton:hover {
-  background-color: #1976d2; /* Darker blue on hover */
-}
-
-#sumButton {
-  background-color: #2196f3; /* Blue button background */
-  color: #fff; /* White text color */
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  margin-top: 20px;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: background-color 0.3s ease-in-out;
-}
-
-#sumButton:hover {
-  background-color: #1976d2; /* Darker blue on hover */
-}
-
-#sumButton {
-  background-color: #2196f3; /* Blue button background */
-  color: #fff; /* White text color */
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  margin-top: 20px;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: background-color 0.3s ease-in-out;
-}
-
-#sumButton:hover {
-  background-color: #1976d2; /* Darker blue on hover */
-}
-
