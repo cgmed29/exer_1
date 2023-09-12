@@ -40,8 +40,8 @@ body {
   
   /* Style the paragraph with emphasis */
   p em {
-    background-color: #f2f2f2; /* Light gray */
-    color: #e50914; /* Taylor Swift Red */
+    background-color: black; /* Light gray */
+    color: green; /* Taylor Swift Red */
     padding: 2px;
     font-weight: bold; /* Add bold emphasis */
     font-style: italic; /* Italicize the text */
